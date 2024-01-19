@@ -73,7 +73,11 @@ module.exports = {
         gtahidiDarkBlue: "#494080",
         gtahidiDarkBlueTwo: "#251C7680",
         dashboardPurple: "#494080",
-        dashboardBackground: "#F5F8FF",
+        gTbackground: "#FF7C44",
+        cTbackground: "#394B37",
+        cTtext: "#FF7C44"
+
+
       },
       borderRadius: {
         lg: "var(--radius)",
