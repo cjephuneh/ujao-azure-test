@@ -6,11 +6,11 @@ import { SectionTitle } from "./SectionTitle";
 export const Contact = () => {
   return (
     <section className=" bg-cTbackground py-16 px-4 sm:px-6 lg:px-8" id="contact">
-      <SectionTitle inPink="Touch" text="Get In" />
+      <h1 className="text-center text-2xl mb-10 font-bold text-gTbackground">Get In Touch</h1>
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-col lg:flex-row items-start">
           <div className="lg:w-1/3 mb-10 lg:mb-0">
-            <h3 className="text-gtahidiDarkBlue font-semibold text-lg mb-8">
+            <h3 className="text-white font-semibold text-lg mb-8">
               For any Queries and Support
             </h3>
             <div className="flex items-center mb-6">
@@ -36,34 +36,34 @@ export const Contact = () => {
             </div>
           </div>
           <div className="flex-1">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
               <input
                 type="text"
                 placeholder="Your Name"
-                className="w-full rounded-lg border border-gray-300 shadow-sm p-4 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
+                className="w-full rounded-2xl border border-gray-300 shadow-sm p-4 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
               />
               <input
                 type="email"
                 placeholder="Your Email"
-                className="w-full rounded-lg border border-gray-300 shadow-sm p-4 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
+                className="w-full rounded-2xl border border-gray-300 shadow-sm p-4 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
               />
             </div>
             <input
               type="tel"
               placeholder="Your Phone"
-              className="w-full rounded-lg border border-gray-300 shadow-sm p-4 mt-6 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
+              className="w-full rounded-2xl border border-gray-300 shadow-sm p-4 mt-6 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
             />
             <input
               type="text"
               placeholder="Subject"
-              className="w-full rounded-lg border border-gray-300 shadow-sm p-4 mt-6 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
+              className="w-full rounded-2xl border border-gray-300 shadow-sm p-4 mt-6 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
             />
             <textarea
               placeholder="Your Message"
-              className="w-full rounded-lg border border-gray-300 shadow-sm p-4 mt-6 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
+              className="w-full rounded-2xl border border-gray-300 shadow-sm p-4 mt-6 focus:border-gtahidiPink focus:ring focus:ring-gtahidiPink focus:ring-opacity-50"
               rows={5}
             />
-            <button className="bg-gtahidiDarkBlue rounded-lg py-3 px-6 text-white mt-6 hover:bg-gtahidiPink transition-colors duration-300">
+            <button className="bg-gtahidiDarkBlue rounded-2xl py-3 px-6 text-white mt-6 hover:bg-gtahidiPink transition-colors duration-300">
               Submit
             </button>
           </div>
