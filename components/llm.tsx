@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import enterpriseImage from '@/public/1.png'; // Adjust the path as necessary
 import industryImage from '@/public/2.png'; // Adjust the path as necessary
 import developerApisImage from '@/public/5.png'; // Adjust the path as necessary

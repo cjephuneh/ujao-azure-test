@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="relative bg-cover bg-center bg-no-repeat py-20" style={{ backgroundImage: 'url(/9.png)' }}>
+    <div className="relative bg-cover bg-center bg-no-repeat  py-[200px]" style={{ backgroundImage: 'url(/9.png)' }}>
       <div className="container mx-auto px-6 md:px-12 xl:px-32">
         <div className="text-center">
           <h1 className="text-2xl md:text-5xl xl:text-6xl font-bold text-cTtext">
