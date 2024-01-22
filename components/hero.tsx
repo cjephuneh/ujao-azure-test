@@ -7,7 +7,7 @@ const HomePage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center px-20 z-10 relative">
         <div className="text-center md:text-left">
           <h1 className="text-3xl md:text-4xl lg:text-5xl mt-[120px] font-extrabold text-white mb-4">
-            All your AI <br/> solutions to ease <br/> your tasks           
+            All your <span className=' text-gTbackground'>AI <br/> solutions</span> to ease <br/> your tasks           
           </h1>
           <p className='mb-6 text-2xl'>AI Accelerated Deal Flow and Portfolio Intelligence</p>
           <div className="">
@@ -22,8 +22,8 @@ const HomePage = () => {
           >
             Get Started
           </button>
-            <div className="flex mt-6">
-                    <a href="#" className="text-white  ">
+            <div className="flex mt-8">
+                    <a href="#" className="text-white px-3 ">
                         <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                               <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
                           </svg>
@@ -68,7 +68,6 @@ const HomePage = () => {
            </div>
         </div>
       </div>
-    // </div>
   );
 };
 
