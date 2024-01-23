@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div className="relative min-h-screen bg-no-repeat bg-cover bg-center text-white" style={{ backgroundImage: 'url("/8.png")' }}>
+    <div className="relative h-screen bg-no-repeat bg-cover bg-center text-white" style={{ backgroundImage: 'url("/8.png")' }}>
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-70"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center px-20 z-10 relative">
         <div className="text-center md:text-left">
