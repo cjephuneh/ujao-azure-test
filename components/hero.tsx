@@ -6,9 +6,11 @@ const HomePage = () => {
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-70"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center px-20 z-10 relative">
         <div className="text-center md:text-left">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl mt-[120px] font-extrabold text-white mb-4">
-            All your <span className=' text-gTbackground'>AI <br/> solutions</span> to ease <br/> your tasks           
-          </h1>
+        <h1 className="text-4xl md:text-4xl lg:text-5xl mt-[200px] font-extrabold text-white mb-4 tracking-wide">
+          <span className="block mb-4">All your <span className='text-gTbackground'>AI</span></span>
+          <span className="block mb-4"><span className='text-gTbackground'>solutions</span> to ease</span>
+          <span className="block">your tasks</span>
+        </h1>
           <p className='mb-6 text-2xl'>AI Accelerated Deal Flow and Portfolio Intelligence</p>
           <div className="">
             <input
@@ -55,7 +57,7 @@ const HomePage = () => {
                     </a>
                 </div>
           </div>
-           <div className=' flex space-x-7 mt-[130px]'>
+           <div className=' flex space-x-7 mt-[180px] ml-32'>
             <div className='rounded mb-2 border-white border p-4 '>
               <h1 className=' text-gTbackground font-bold text-2xl'>One Platform,<br/> Unlimited AI</h1>
               <p>Customize and deploy AI <br/> systems  from a single <br/>platform</p>
