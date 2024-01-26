@@ -16,7 +16,7 @@ const HomePage = () => {
             <input
               type="text"
               placeholder="Your email"
-              className="w-[350px] h-12 rounded border border-gray-300 shadow-sm p-4 "
+              className="w-[350px] h-12 rounded border border-gray-200  p-4 "
             />
           </div>
           <button 
