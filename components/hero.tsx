@@ -56,12 +56,14 @@ const HomePage = () => {
                         <span className="sr-only">Dribbble account</span>
                     </a>
                 </div>
+              {/* hero cards  */}
           </div>
            <div className=' flex space-x-7 mt-[180px] ml-32'>
             <div className='rounded mb-2 border-white border p-4 '>
               <h1 className=' text-gTbackground font-bold text-2xl'>One Platform,<br/> Unlimited AI</h1>
               <p>Customize and deploy AI <br/> systems  from a single <br/>platform</p>
             </div>
+
             <div className='rounded mb-2 border-white border p-4 '>
               <h1 className=' text-gTbackground font-bold text-2xl'>Private LLMs <br/>You Own</h1>
               <p>Build with private models <br/> that only you can access.</p>
