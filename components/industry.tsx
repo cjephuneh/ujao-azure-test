@@ -9,7 +9,7 @@ type ExpertAIsProps = {
 
 const IndustryExpertAIsSection: React.FC<ExpertAIsProps> = ({ title, description, imageUrl }) => {
   return (
-    <div className="bg-orange-500 text-white flex flex-row items-center py-20 lg:px-20">
+    <div className="bg-orange-500 text-white flex flex-row items-center py-[180px] lg:px-20">
       <div className="flex-1 flex justify-center px-4">
         <Image
           src={imageUrl}
