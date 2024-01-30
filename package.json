@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node_modules/react-scripts/bin/react-scripts.js start",
+    "dev": "next dev",
     "build": "react-scripts build",
+    "start": "node_modules/react-scripts/bin/react-scripts.js start",
+    "lint": "next lint",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
   "dependencies": {
     "next": "14.1.0",
     "react": "^18",
