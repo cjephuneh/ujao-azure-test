@@ -6,7 +6,7 @@ const HomePage = () => {
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-70"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center px-20 z-10 relative">
         <div className="text-center md:text-left">
-        <h1 className="text-6xl md:text-4xl lg:text-5xl mt-[200px] font-extrabold text-white mb-4 tracking-wide">
+        <h1 className="text-6xl md:text-4xl lg:text-5xl mt-[160px] font-extrabold text-white mb-4 tracking-wide">
           <span className="block mb-4">All your <span className='text-gTbackground'>AI</span></span>
           <span className="block mb-4"><span className='text-gTbackground'>solutions</span> to ease</span>
           <span className="block">your tasks</span>

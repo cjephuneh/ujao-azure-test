@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "node node_modules/next/dist/bin/next start",
-    "lint": "next lint"
+    "start": "node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "next": "14.1.0",
